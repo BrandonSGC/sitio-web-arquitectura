@@ -360,3 +360,30 @@ img {
     object-fit: cover;
     height: 100%;
 }
+
+
+/* Footer */
+
+.footer {    
+    height: 50rem;
+    background-image: url(/img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer a {
+    color: var(--blanco);
+    font-size: 2rem;
+}
+
+.copyright {
+    background-color: var(--negro);
+    margin-bottom: 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
